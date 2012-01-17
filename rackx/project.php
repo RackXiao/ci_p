@@ -1,3 +1,17 @@
+<html>
+<head>
+<style>
+body {
+	background-image:url('http://images.andenhud.com/ryan/index/bg.jpg');
+    margin: 20 100;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+}
+</style>
+<title>專案列表</title>
+</head>
+<body background="http://www.mysite.com/image1.gif">
 <pre>
 A.專案名稱：今週刊發報系統 <a target="_blank" href="http://ms01.qyoung.com.tw/">http://ms01.qyoung.com.tw/</a>  [ 100/4 ~ now 共計10個月 ]
 專案人數：3
@@ -69,5 +83,5 @@ F.專案名稱：伊聖詩芳療生活館 <a target="_blank" href="http://www.es
 
 工作內容：需求分析、功能分析、系統設計、Coding、Debug、專案上線。
 </pre>
-
-<?php
+</body>
+</html>
