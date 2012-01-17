@@ -1,27 +1,4 @@
 <?php 
-function table($rowData, $field){
-	echo "<table>";
-	row($field, true);
-	foreach($rowData as $row) {
-		row($row);
-	}
-	echo "</table>";
-}
-
-function row($row, $is_title=false){
-	echo "<tr>";
-	foreach($row as $value){
-		echo ($is_title==false) ? "<td>" : "<th>";
-		echo $value;
-		echo ($is_title==false) ? "</td>" : "</th>";
-	}
-	//其他外加
-	echo ($is_title==false) ? "<td>" : "<th>";
-	echo ($is_title==false) ? "<a href=\"form.php?id={$row["id"]}\">編輯</a> | <a href=\"delete.php?id={$row["id"]}\">刪除</a>" : "操作";
-	echo ($is_title==false) ? "</td>" : "</th>";
-	
-	echo "</tr>\r\n";
-}
 
 function b($num=1) {
 	for($i=0;$i<$num;$i++) {
@@ -52,6 +29,6 @@ function nv($value){
 	return '';
 }
 
-function redirect($url){
-	header("Location: {$url}") ;
-}
+//function redirect($url){
+//	header("Location: {$url}") ;
+//}

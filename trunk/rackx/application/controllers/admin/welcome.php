@@ -11,8 +11,9 @@ class Welcome extends CI_Controller {
 	public function index() {
 		$data = array();
 		
-		$layout_data['main_area'] = $this->load->view('index', $data, true);
-		$this->load->view('layout/main_layout', $layout_data);
+		$layout_data['mainmenu'] = $this->load->view('layout/back_mainmenu', array(), true);
+		$layout_data['main_area'] = $this->load->view('admin/index', $data, true);
+		$this->load->view('layout/back_main_layout', $layout_data);
 	}
 }
 

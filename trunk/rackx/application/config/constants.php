@@ -45,10 +45,10 @@ date_default_timezone_set('Asia/Taipei');
 /* 開發環境專用  */
 define('IS_DEVELOPED', ($_SERVER['HTTP_HOST']=='localhost')?true:false);
 
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'rackx.shangc.info');
 define('DB_USER', 'root');
 define('DB_PASS', 'xxxxx');
-define('DB_NAME', 'migration');
+define('DB_NAME', 'rackx');
 
 /* System Parameters */
 // FCPATH : 專案的根目錄
@@ -60,8 +60,6 @@ define('ERR_MSG_PREFIX', '<span class="error_message">');
 define('ERR_MSG_SUFFIX', '</span>');
 
 // PATH
-define('CSS_PATH', 'css/');
-define('JS_PATH', 'js/');
 define('IMAGE_PATH', 'images/');
 
 // 讀取view下面的檔案
