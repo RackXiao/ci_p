@@ -154,7 +154,7 @@ EOF;
 
 $ret[]= <<< EOF
 專案名稱：富達利財會系統  [ 100/03 ~ 100/06 共計4個月 ]
-專案人數：2
+專案人數：3
 專案角色：SA / SD / PG
 使用技術：J2EE、PostgreSQL、Struts 2、myBatis、jQuery、AJAX
 作業環境：Linux(CentOS)。
