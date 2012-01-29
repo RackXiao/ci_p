@@ -110,7 +110,7 @@ $ret[]= <<< EOF
 專案名稱：MyKickBacks <a target="_blank" href="http://www.mykickbacks.com">http://www.mykickbacks.com</a>  [ 99/05 ~ 99/11 共計7個月 ]
 專案人數：2
 專案角色：SA / SD / PG
-使用技術：PHP、MySQL、Codeigniter、Facebook Api、Java
+使用技術：PHP、MySQL、Codeigniter、Facebook Api、Java、Sphinx搜尋引擎
 作業環境：Linux(CentOS)。
 
 專案概述：線上酬傭回饋購物網站，含酬傭提供商資料的轉換匯入排程。
