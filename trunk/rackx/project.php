@@ -31,9 +31,9 @@ body {
 </ol>
 <pre>
 　其他未整理：
-　　頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>
-　　Stayreal
-　　天惠堂官網
+　　頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ now 共計3個月 ]
+　　Stayreal  [ 100/4 ~ now 共計10個月 ]
+　　天惠堂官網  [ 100/12 ~ now 共計2個月 ]
 　　
 　工具：
 　　eclipse
