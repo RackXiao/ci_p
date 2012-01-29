@@ -26,6 +26,11 @@ body {
 		<pre>
 <?php echo $data; ?>
 		</pre>
+		<table>
+			<tr>
+				<th></th><td></td>
+			</tr>
+		</table>
 	</li>
 <?php endforeach; ?>
 </ol>
@@ -54,6 +59,16 @@ body {
 <?php 
 function getContent() {
 $ret = array();
+
+array(
+'name'=>'',
+'people'=>'',
+'role'=>'',
+'tech'=>'',
+'env'=>'',
+'description'=>'',
+'work'=>'',
+);
 
 $ret[]= <<< EOF
 專案名稱：MiniJudge <a target="_blank" href="http://www.ccunix.ccu.edu.tw/~lngproc/MiniJudgeJava2.htm">介紹網站</a>  [ 99/01 ~ 99/06 共計6個月 ]
@@ -107,7 +122,7 @@ $ret[]= <<< EOF
 專案名稱：聯發科內部檔案交換系統  [ 99/05 ~ now 共計21個月 ]
 專案人數：3
 專案角色：SD / PG
-專案角色：Visual C#、Windows server 2003、IIS、AD server
+使用技術：Visual C#、Windows server 2003、IIS、AD server
 作業環境：Windows Server 2003。
 
 專案概述：系統功能維護及增加新功能。
