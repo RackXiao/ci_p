@@ -30,15 +30,22 @@ body {
 <?php endforeach; ?>
 </ol>
 <pre>
+　其他未整理：
+　　頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>
+　　Stayreal
+　　天惠堂官網
+　　
 　工具：
 　　eclipse
 　　Navicat
+　　
 　　
 　其他研究過的技術：
 　　RegExp
 　　Amazon EC2
 　　Apache Maven 2
 　　MS SQL
+　　
 　　
 </pre>
 </body>
@@ -146,7 +153,7 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：富達利財會系統   [ 100/03 ~ 100/06 共計4個月 ]
+專案名稱：富達利財會系統  [ 100/03 ~ 100/06 共計4個月 ]
 專案人數：2
 專案角色：SA / SD / PG
 使用技術：J2EE、PostgreSQL、Struts 2、myBatis、jQuery、AJAX
