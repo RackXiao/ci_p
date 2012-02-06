@@ -8,7 +8,7 @@
 
 <style>
 body {
-	background-image:url('http://images.andenhud.com/ryan/index/bg.jpg');
+/* 	background-image:url('http://images.andenhud.com/ryan/index/bg.jpg'); */
     margin: 20 100;
 	padding: 0;
 	font-family: Verdana, Geneva, sans-serif;
@@ -22,10 +22,11 @@ body {
 <?php $count = 1; ?>
 <ol style="list-style-type: decimal;">
 <?php foreach ($dataList as $data): ?>
-	<li style="background-color: <?php echo ($count++%2) ? '#aafbd4':'#f9f6a6' ?>">
+	<li style="background-color: <?php echo ($count++%2) ? '#bdedf9':'#f9f6a6' ?>;">
 		<pre>
 <?php echo $data; ?>
 		</pre>
+		<hr />
 		<table>
 			<tr>
 				<th></th><td></td>
@@ -37,7 +38,6 @@ body {
 <pre>
 　其他未整理：
 　　頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ now 共計3個月 ]
-　　Stayreal  [ 100/4 ~ now 共計10個月 ]
 　　天惠堂官網  [ 100/12 ~ now 共計2個月 ]
 　　
 　工具：
@@ -71,8 +71,8 @@ array(
 );
 
 $ret[]= <<< EOF
-專案名稱：MiniJudge <a target="_blank" href="http://www.ccunix.ccu.edu.tw/~lngproc/MiniJudgeJava2.htm">介紹網站</a>  [ 99/01 ~ 99/06 共計6個月 ]
-專案人數：4
+<b>專案名稱：MiniJudge <a target="_blank" href="http://www.ccunix.ccu.edu.tw/~lngproc/MiniJudgeJava2.htm">介紹網站</a>  [ 99/01 ~ 99/06 共計6個月 ]</b>
+專案人數：4 (工程師:3)
 專案角色：PG
 使用技術：Java、SQLite、J2EE、GWT、Tomcat、Spring Framework、SVN、Test Case、Design Pattern、i18n、SMTP、R
 作業環境：Linux(Ubuntu)。
@@ -83,8 +83,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：伊聖詩芳療生活館 <a target="_blank" href="http://www.escents.com.tw">http://www.escents.com.tw</a>  [ 99/03 ~ now 共計23個月 ]
-專案人數：3
+<b>專案名稱：伊聖詩芳療生活館 <a target="_blank" href="http://www.escents.com.tw">http://www.escents.com.tw</a>  [ 99/03 ~ now 共計23個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：PG
 使用技術：PHP、MySQL、Javascript、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix
 作業環境：Linux(CentOS)。
@@ -95,8 +95,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：PlayOne  [ 99/04 ~ 99/06 共計3個月 ]
-專案人數：3
+<b>專案名稱：PlayOne  [ 99/04 ~ 99/06 共計3個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：J2EE、MySQL、GWT、iBatis、Oval、Log4J
 作業環境：Linux(CentOS)。
@@ -107,8 +107,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：MyKickBacks <a target="_blank" href="http://www.mykickbacks.com">http://www.mykickbacks.com</a>  [ 99/05 ~ 99/11 共計7個月 ]
-專案人數：2
+<b>專案名稱：MyKickBacks <a target="_blank" href="http://www.mykickbacks.com">http://www.mykickbacks.com</a>  [ 99/05 ~ 99/11 共計7個月 ]</b>
+專案人數：2 (工程師:1)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、Facebook Api、Java、Sphinx搜尋引擎
 作業環境：Linux(CentOS)。
@@ -119,8 +119,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：聯發科內部檔案交換系統  [ 99/05 ~ now 共計21個月 ]
-專案人數：3
+<b>專案名稱：聯發科內部檔案交換系統  [ 99/05 ~ now 共計21個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：SD / PG
 使用技術：Visual C#、Windows server 2003、IIS、AD server
 作業環境：Windows Server 2003。
@@ -131,33 +131,36 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：赫士盟人力資源網  [ 99/12 ~ 100/02 共計3個月 ]
-專案人數：4
+<b>專案名稱：赫士盟人力資源網  [ 99/12 ~ 100/02 共計3個月 ]</b>
+專案人數：4 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：PHP、SQLite、Codeigniter、CAPTCHA、AJAX、jQuery
 作業環境：Linux(CentOS)。
 
-專案概述：企業內部的人力資源網站。包含了一般使用者面試報名，個人資料管理；主管對應徵人員的面試結果處理；人資人員對企業內部應徵流程的管理，及面試人員錄用的管理；內部員工心理測驗的模組等。
+專案概述：企業內部的人力資源網站。包含了一般使用者面試報名，個人資料管理；
+　　　　　主管對應徵人員的面試結果處理；人資人員對企業內部應徵流程的管理，及面試人員錄用的管理；內部員工心理測驗的模組等。
 測試網站： <a target="_blank" href="http://hr.hasmore.qyoung.com.tw">http://hr.hasmore.qyoung.com.tw</a>
 
 工作內容：需求分析、功能分析、系統設計、Coding、Debug、環境架設、專案上線
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com">http://www.andenhud.com</a>  [ 99/8 ~ now 共計18個月 ]
-專案人數：3
+<b>專案名稱：Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com">http://www.andenhud.com</a>  [ 99/8 ~ now 共計18個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：SA / SD / PG
-使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery、SSL、Facebook Api、7-11物流服務、簡訊服務、聯合信用卡中心、玉山銀行eATM、中國信託信用卡、Java、Google分析器、shell script、其他行銷公司的app串接
+使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery、SSL、Facebook Api、7-11物流服務、簡訊服務、聯合信用卡中心、玉山銀行eATM、中國信託信用卡、
+　　　　　Java、Google分析器、shell script、其他行銷公司的app串接
 作業環境：Linux(CentOS)。
 
-專案概述：線上服飾購物網站。系統包含了產品展示，購物車，訂單處理流程，會員中心，電子報寄送，7-11的物流功能串接，線上金流(信用卡及線上ATM等功能)；並為該網站提供系統及資料備援機制。
+專案概述：線上服飾購物網站。系統包含了產品展示，購物車，訂單處理流程，會員中心，電子報寄送，7-11的物流功能串接，線上金流(信用卡及線上ATM等功能)；
+　　　　　並為該網站提供系統及資料備援機制。
 
 工作內容：需求分析、功能分析、系統設計、Coding、Debug、環境架設、專案上線、專案及系統維護
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：新晨旅行社  <a target="_blank" href="http://yohotour.com.tw">http://yohotour.com.tw</a>  [ 99/11 ~ now 共計15個月 ]
-專案人數：4
+<b>專案名稱：新晨旅行社  <a target="_blank" href="http://yohotour.com.tw">http://yohotour.com.tw</a>  [ 99/11 ~ now 共計15個月 ]</b>
+專案人數：4 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
 作業環境：Linux(CentOS)。
@@ -168,8 +171,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：富達利財會系統  [ 100/03 ~ 100/06 共計4個月 ]
-專案人數：3
+<b>專案名稱：富達利財會系統  [ 100/03 ~ 100/06 共計4個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：J2EE、PostgreSQL、Struts 2、myBatis、jQuery、AJAX
 作業環境：Linux(CentOS)。
@@ -180,8 +183,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：有巢氏物件管理系統  [ 100/05 ~ 100/05 共計1個月 ]
-專案人數：2
+<b>專案名稱：有巢氏物件管理系統  [ 100/05 ~ 100/05 共計1個月 ]</b>
+專案人數：2 (工程師:1)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、jQuery、Google Map
 作業環境：Linux(CentOS)。
@@ -192,8 +195,8 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw/">http://ms01.qyoung.com.tw/</a>  [ 100/5 ~ now 共計9個月 ]
-專案人數：3
+<b>專案名稱：今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw/">http://ms01.qyoung.com.tw/</a>  [ 100/5 ~ now 共計9個月 ]</b>
+專案人數：3 (工程師:2)
 專案角色：SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix
 作業環境：Linux(CentOS)。
@@ -204,13 +207,25 @@ $ret[]= <<< EOF
 EOF;
 
 $ret[]= <<< EOF
-專案名稱：味自慢  <a target="_blank" href="http://www.ajijiman.com.tw">http://www.ajijiman.com.tw</a>  [ 100/06 ~ now 共計8個月 ]
-專案人數：2
+<b>專案名稱：味自慢  <a target="_blank" href="http://www.ajijiman.com.tw">http://www.ajijiman.com.tw</a>  [ 100/06 ~ now 共計8個月 ]</b>
+專案人數：2 (工程師:1)
 專案角色：SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
 作業環境：Linux(CentOS)。
 
 專案概述：味自慢 線上官方形象網站，食品、餐飲介紹，會員折扣列印。
+
+工作內容：需求分析、功能分析、系統設計、Coding、Debug、專案上線、專案及系統維護
+EOF;
+
+$ret[]= <<< EOF
+<b>專案名稱：Stayreal  <a target="_blank" href="http://test.stayreal.qyoung.com.tw/">測試網站</a>  [ 100/05 ~ now 共計9個月 ]</b>
+專案人數：2 (工程師:1)
+專案角色：SA / SD / PG
+使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
+作業環境：Linux(CentOS)。
+
+專案概述：五月天品牌 Stayreal 線上官方形象網站，前台展示及後台上架及管理。
 
 工作內容：需求分析、功能分析、系統設計、Coding、Debug、專案上線、專案及系統維護
 EOF;
