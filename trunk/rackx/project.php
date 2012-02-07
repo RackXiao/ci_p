@@ -12,14 +12,15 @@
 <style>
 body {
 /* 	background-image:url('http://images.andenhud.com/ryan/index/bg.jpg'); */
-    margin: 20 100;
+    margin: 20px;
 	padding: 0;
 	font-family: Verdana, Geneva, sans-serif;
 	position: relative;
 }
 
-h1, table {
-	width: 100%; 
+table {
+	margin: auto 100px;
+	width: 80%; 
 }
 
 th {
@@ -37,6 +38,18 @@ td.title {
 .js_set {
 	cursor: pointer;
 }
+
+div.unit {
+	padding: 5px;
+}
+
+div.child {
+	padding-left: 50px;
+}
+
+span {
+	float: right;
+}
 </style>
 <title>專案列表</title>
 </head>
@@ -47,6 +60,7 @@ td.title {
 
 <table>
 <?php foreach ($dataList as $data): ?>
+<!--
 	<tr id="js_set<?php echo $count?>" class="js_set" style="background-color: <?php echo ($count%2) ? '#bdedf9':'#f9f6a6' ?>;">
 		<th><?php echo "$count."?></th><td class="title">專案名稱：</td><td><?php echo $data['name'].$data['during'] ?></td>
 	</tr>
@@ -67,6 +81,27 @@ td.title {
 	</tr>
 	<tr class="row_set js_set<?php echo $count?>" style="background-color: <?php echo ($count%2) ? '#bdedf9':'#f9f6a6' ?>;">
 		<th></th><td>工作內容：</td><td><?php echo $data['work'] ?></td>
+	</tr>-->
+	
+	
+	<tr id="js_set<?php echo $count?>" class="js_set" style="background-color: <?php echo ($count%2) ? '#bdedf9':'#f9f6a6' ?>;">
+		<th>
+			<?php echo "$count."?>
+			<div class="row_set js_set<?php echo $count?>">
+				<?php for($i=0;$i<6;$i++) {?><div class="unit">&nbsp;</div><?php } ?>
+			</div>
+		</th>
+		<td class="title">
+			<div class="unit">專案名稱：<?php echo $data['name'].str_repeat('&nbsp;',4)."<span>".$data['during']."</span>" ?></div>
+			<div class="row_set js_set<?php echo $count?>">
+				<div class="unit">專案人數：<?php echo $data['people'] ?></div>
+				<div class="unit">專案角色：<?php echo $data['role'] ?></div>
+				<div class="unit">專案技術：<?php echo $data['tech'] ?></div>
+				<div class="unit">作業環境：<?php echo $data['env'] ?></div>
+				<div class="unit">專案概述：<?php echo $data['description'] ?></div>
+				<div class="unit">工作內容：<?php echo $data['work'] ?></div>
+			</div>
+		</td>
 	</tr>
 <!--	<tr>-->
 <!--		<th>&nbsp;</th><td>&nbsp;</td><td>&nbsp;</td>-->
@@ -87,24 +122,49 @@ td.title {
 <?php endforeach; ?>
 </ol>
 -->
-<pre>
-　其他未整理：
-　　頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ now 共計3個月 ]
-　　天惠堂官網  [ 100/12 ~ now 共計2個月 ]
-　　
-　工具：
-　　eclipse
-　　Navicat
-　　
-　　
-　其他研究過的技術：
-　　RegExp
-　　Amazon EC2
-　　Apache Maven 2
-　　MS SQL
-　　
-　　
-</pre>
+<table>
+	<tr>
+		<th></th>
+		<td>
+			<div>其他未整理：</div>
+		</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+			<div class="child">頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ now 共計3個月 ]</div>
+			<div class="child">天惠堂官網  [ 100/12 ~ now 共計2個月 ]</div>
+		</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+			<div>工具：</div>
+		</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+			<div class="child">eclipse</div>
+			<div class="child">Navicat</div>
+		</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+			<div>其他研究過的技術：</div>
+		</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+			<div class="child">RegExp</div>
+			<div class="child">Amazon EC2</div>
+			<div class="child">Apache Maven 2</div>
+			<div class="child">MS SQL</div>
+		</td>
+	</tr>
+</table>
 
 <script>
 var current_open;
@@ -158,7 +218,7 @@ $ret[]= <<< EOF
 EOF;
 
 $list[] = array(
-'name'=>'專案名稱：MiniJudge <a target="_blank" href="http://www.ccunix.ccu.edu.tw/~lngproc/MiniJudgeJava2.htm">介紹網站</a>',
+'name'=>'MiniJudge <a target="_blank" href="http://www.ccunix.ccu.edu.tw/~lngproc/MiniJudgeJava2.htm">介紹網站</a>',
 'during'=>'[ 99/01 ~ 99/06 共計6個月 ]',
 'people'=>'4 (工程師:3)',
 'role'=>'PG',
