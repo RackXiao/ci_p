@@ -486,7 +486,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：Stayreal  <a target="_blank" href="http://test.stayreal.qyoung.com.tw/">測試網站</a>  [ 100/05 ~ now 共計9個月 ]</b>
+<b>專案名稱：Stayreal  <a target="_blank" href="http://demo.istayreal.com/">展示網站</a>  [ 100/05 ~ now 共計9個月 ]</b>
 專案人數：2 (工程師:1)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
