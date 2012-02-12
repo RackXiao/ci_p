@@ -3,7 +3,7 @@
  * 檢查有無登入。
  */
 function login_guide() {
-	frontend_login();
+// 	frontend_login();
 	backend_login();
 }
 
@@ -37,6 +37,10 @@ function backend_login(){
 		'admin/login',
 		'admin/logout',
 	);
+	
+	if(stripos(uri_string(), 'admin') === FALSE) {
+		return;
+	}
 
 	$count = 0;
 	if ($CI->session->userdata('isAdminLogin') != 1) {

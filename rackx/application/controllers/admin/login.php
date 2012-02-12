@@ -25,7 +25,7 @@ class Login extends CI_Controller {
             		);
 			$this->session->set_userdata($login_data);
 			// 
-			$this->session->set_userdata('alert_messages', array(lang('login_success')));
+// 			$this->session->set_userdata('alert_messages', array(lang('login_success')));
 			redirect($target_uri);
 		}
 		

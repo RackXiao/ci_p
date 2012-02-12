@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+body {
+    margin: 20px;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+}
+
+table {
+	margin: auto 100px;
+	width: 80%; 
+}
+
+th {
+	width: 10px;
+}
+
+td {
+	padding: 10px 20px;
+}
+
+td.title {
+	width: 80px;
+}
+
+.js_set {
+	cursor: pointer;
+}
+
+div.unit {
+	padding: 5px;
+}
+
+div.child {
+	padding-left: 50px;
+}
+
+span {
+	float: right;
+}

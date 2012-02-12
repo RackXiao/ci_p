@@ -40,8 +40,6 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
 
-date_default_timezone_set('Asia/Taipei');
-
 /* 開發環境專用  */
 define('IS_DEVELOPED', ($_SERVER['HTTP_HOST']=='localhost')?true:false);
 
@@ -50,17 +48,17 @@ define('DB_USER', 'root');
 define('DB_PASS', 'xxxxx');
 define('DB_NAME', 'rackx');
 
-/* System Parameters */
-// FCPATH : 專案的根目錄
-$splash = (strtoupper(substr(PHP_OS,0,3)=='WIN')) ? '\\' : '/';
-
 define('ROWS_PER_PAGE', 10);
-
-define('ERR_MSG_PREFIX', '<span class="error_message">');
-define('ERR_MSG_SUFFIX', '</span>');
 
 // PATH
 define('IMAGE_PATH', 'images/');
 
 // 讀取view下面的檔案
 define('DIR_EMAIL_TEMPLATE', 'emailTemplate/');
+
+/* System Parameters */
+// FCPATH : 專案的根目錄
+define('SPLASH', (strtoupper(substr(PHP_OS,0,3)=='WIN')) ? '\\' : '/');
+
+define('ERR_MSG_PREFIX', '<span class="error_message">');
+define('ERR_MSG_SUFFIX', '</span>');

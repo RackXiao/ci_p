@@ -1,7 +1,7 @@
 <div id="accordion" class="mainmenu">
-	<h3><a href="#">商品管理群組</a></h3>
+	<h3><a href="#">個人管理群組</a></h3>
 	<ul>
-		<li><a class="level1" href="<?php echo site_url("admin/project");?>">個人專案管理</a></li>
+		<li><a class="level1" href="<?php echo site_url("admin/project");?>">專案管理</a></li>
 <!--		<li><a class="level1" href="<?php echo site_url("admin/product_index_image");?>">產品首頁圖片管理</a></li>-->
 <!--		<li><a class="level1" href="<?php echo site_url("admin/frontend_super_class");?>">前台商品分類一管理</a></li>-->
 <!--		<li><a class="level1" href="<?php echo site_url("admin/frontend_class");?>">前台商品分類二管理</a></li>-->

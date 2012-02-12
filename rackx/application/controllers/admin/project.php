@@ -1,16 +1,17 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Project extends CI_Controller {
-	
 	function __construct(){
 		parent::__construct();
 		
 		$this->load->model('project_model');
 		$this->model = new project_model();
+		
+		$this->controller = getControllerCIPath(__FILE__);
 	}
 	
-	var $controller = "admin/project";
-	var $management_name = "個人專案";
+	var $controller;
+	var $management_name = "專案";
 	var $table_name = "Project";
 	var $model;
 

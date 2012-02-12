@@ -1,5 +1,20 @@
 <?php
 
+/**
+ * 取得目前controller所在的ci uristring
+ * @param str $file
+ * @return string
+ */
+function getControllerCIPath($file){
+	$str = basename($file, '.php');
+	$path = explode(SPLASH, dirname($file));
+	while($path[count($path)-1]!='controllers'){
+		$str = $path[count($path)-1].'/'.$str;
+		unset($path[count($path)-1]);
+	}
+	return $str;
+}
+
 function assoc_to_segment($array){
 	return segment_encode(serialize($array));
 }
