@@ -36,7 +36,7 @@ class Abstract_basic_model extends CI_Model  {
 		}
 	}
 
-	function changeStatus($id_list, $status) {
+	function changeEnableStatus($id_list, $status) {
 		$this->changeFieldStatus($id_list, 'enable', $status);
 	}
 
@@ -58,7 +58,6 @@ class Abstract_basic_model extends CI_Model  {
 		}
 	}
 
-//=== getMaxArrange 需要帶參數的話，以下兩個都要重寫 ===
 	function getMaxArrange() {
 		$this->db->select_max('arrange');
 		return $this->db->get($this->table_name);
