@@ -13,8 +13,8 @@
 <title>專案列表</title>
 </head>
 <body>
+<?php if( !empty($title) ) {?><h1 align="center"><?php echo $title ?></h1><?php } ?>
 
-<h1 align="center"><?php echo $title ?></h1>
 <?php echo $main_area ?>
 
 </body>
