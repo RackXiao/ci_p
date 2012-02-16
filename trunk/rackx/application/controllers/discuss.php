@@ -1,14 +1,21 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Discuss extends CI_Controller {
 	function __construct(){
 		parent::__construct();
+		$this->load->model('project_model');
+		$this->model = new project_model();
 	}
+	
+	var $model;
 
 	public function index() {
 		$data = array();
 		
-		$layout_data['main_area'] = $this->load->view('index', $data, true);
+		$data['title'] = '專案列表';
+		$data['list'] = $this->model->getAll()->result_array();
+		
+		$layout_data['main_area'] = $this->load->view('project', $data, true);
 		$this->load->view('layout/main_layout', $layout_data);
 	}
 }
