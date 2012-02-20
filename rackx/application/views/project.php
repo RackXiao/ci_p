@@ -1,7 +1,5 @@
-
-<?php $count = 1; ?>
-
 <table>
+<?php $count = 1; ?>
 <?php foreach ($list as $data): ?>
 	<tr id="js_set<?php echo $count?>" class="js_set" style="background-color: <?php echo ($count%2) ? '#bdedf9':'#f9f6a6' ?>;">
 		<th>

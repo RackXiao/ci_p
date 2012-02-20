@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
 
-<title>專案列表</title>
+<title><?php echo !empty($title) ? $title : '' ?></title>
 </head>
 <body>
 <?php if( !empty($title) ) {?><h1 align="center"><?php echo $title ?></h1><?php } ?>

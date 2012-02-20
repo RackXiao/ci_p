@@ -12,8 +12,15 @@
 
 $hook['post_controller_constructor'][] = array(
 			'class'    => '',
+			'function' => 'data_guide',
+			'filename' => 'R_guide_hook.php',
+			'filepath' => 'hooks',
+);
+
+$hook['post_controller_constructor'][] = array(
+			'class'    => '',
 			'function' => 'login_guide',
-			'filename' => 'QYoung_guide_hook.php',
+			'filename' => 'R_guide_hook.php',
 			'filepath' => 'hooks',
 );
 
