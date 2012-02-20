@@ -13,12 +13,10 @@ class Project extends CI_Controller {
 		$data = array();
 		
 		$data['title'] = '專案列表';
+// 		$data['url_ref'] = $_SERVER['HTTP_REFERER'];
 		$data['list'] = $this->model->getAll()->result_array();
 		
 		$layout_data['main_area'] = $this->load->view('project', $data, true);
 		$this->load->view('layout/main_layout', $layout_data);
 	}
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

@@ -1,10 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Discuss extends CI_Controller {
+class Stock extends CI_Controller {
 	function __construct(){
 		parent::__construct();
-		$this->board_category_model = setBasicModel('BoardCategory');
-		$this->model = setBasicModel('Board');
+		$this->model = setBasicModel('Stock');
 	}
 	
 	var $model;
@@ -12,7 +11,7 @@ class Discuss extends CI_Controller {
 	public function index() {
 		$data = array();
 		
-// 		$data['title'] = '專案列表';
+		$data['title'] = '股市討論';
 		$data['list'] = $this->model->getAll()->result_array();
 		
 		$layout_data['main_area'] = $this->load->view('project', $data, true);

@@ -1,4 +1,11 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+function data_guide() {
+	if(isset($_SERVER['HTTP_REFERER'])) {
+		$CI = &get_instance();
+		$CI->session->set_userdata(array('url_ref'=>$_SERVER['HTTP_REFERER']));
+	}
+}
+
 /**
  * 檢查有無登入。
  */

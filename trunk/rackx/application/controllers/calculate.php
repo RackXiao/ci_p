@@ -15,6 +15,3 @@ class Calculate extends CI_Controller {
 // 		$this->load->view('layout/main_layout', $layout_data);
 	}
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
