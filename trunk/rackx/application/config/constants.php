@@ -43,10 +43,12 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 /* 開發環境專用  */
 define('IS_DEVELOPED', ($_SERVER['HTTP_HOST']=='localhost')?true:false);
 
-define('DB_HOST', 'rackx.shangc.info');
-define('DB_USER', 'root');
-define('DB_PASS', 'xxxxx');
-define('DB_NAME', 'rackx');
+define('DB_HOST', 'sqlite:'.FCPATH.'db/database.sqlite');	//localhost
+define('DB_USER', '');
+define('DB_PASS', '');
+define('DB_NAME', '');
+define('DB_DRIVER', 'pdo');		//mysql
+define('DB_DEBUG', TRUE);
 
 define('ROWS_PER_PAGE', 10);
 
