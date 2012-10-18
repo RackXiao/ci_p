@@ -14,7 +14,7 @@ class Project extends CI_Controller {
 		
 		$data['title'] = '專案列表';
 // 		$data['url_ref'] = $_SERVER['HTTP_REFERER'];
-		$data['list'] = $this->model->getAll()->result_array();
+// 		$data['list'] = $this->model->getAll()->result_array();
 		
 		$layout_data['main_area'] = $this->load->view('project', $data, true);
 		$this->load->view('layout/main_layout', $layout_data);
