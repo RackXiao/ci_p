@@ -132,8 +132,8 @@ span {
 	<tr>
 		<th></th>
 		<td>
-			<div class="child">頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ now 共計3個月 ]</div>
-			<div class="child">天惠堂官網  [ 100/12 ~ now 共計2個月 ]</div>
+			<div class="child">頂尖寵物網 <a target="_blank" href="http://www.petland.com.tw">http://www.petland.com.tw</a>  [ 100/11 ~ 101/02 共計4個月 ]</div>
+			<div class="child">天惠堂官網  [ 100/12 ~ 101/02 共計3個月 ]</div>
 		</td>
 	</tr>
 	<tr>
@@ -229,7 +229,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：伊聖詩芳療生活館 <a target="_blank" href="http://www.escents.com.tw">http://www.escents.com.tw</a>  [ 99/03 ~ now 共計23個月 ]</b>
+<b>專案名稱：伊聖詩芳療生活館 <a target="_blank" href="http://www.escents.com.tw">http://www.escents.com.tw</a>  [ 99/03 ~ 101/02 共計24個月 ]</b>
 專案人數：3 (工程師:2)
 專案角色：PG
 使用技術：PHP、MySQL、Javascript、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix
@@ -242,7 +242,7 @@ EOF;
 
 $list[] = array(
 'name'=>'伊聖詩芳療生活館 <a target="_blank" href="http://www.escents.com.tw">http://www.escents.com.tw</a>',
-'during'=>'[ 99/03 ~ now 共計23個月 ]',
+'during'=>'[ 99/03 ~ 101/02 共計24個月 ]',
 'people'=>'3 (工程師:2)',
 'role'=>'PG',
 'tech'=>'PHP、MySQL、Javascript、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix',
@@ -298,7 +298,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：聯發科內部檔案交換系統  [ 99/05 ~ now 共計21個月 ]</b>
+<b>專案名稱：聯發科內部檔案交換系統  [ 99/05 ~ 101/02 共計22個月 ]</b>
 專案人數：3 (工程師:2)
 專案角色：SD / PG
 使用技術：Visual C#、Windows server 2003、IIS、AD server
@@ -311,7 +311,7 @@ EOF;
 
 $list[] = array(
 'name'=>'聯發科內部檔案交換系統',
-'during'=>'[ 99/05 ~ now 共計21個月 ]',
+'during'=>'[ 99/05 ~ 101/02 共計22個月 ]',
 'people'=>'3 (工程師:2)',
 'role'=>'SD / PG',
 'tech'=>'Visual C#、Windows server 2003、IIS、AD server',
@@ -346,7 +346,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com">http://www.andenhud.com</a>  [ 99/8 ~ now 共計18個月 ]</b>
+<b>專案名稱：Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com">http://www.andenhud.com</a>  [ 99/8 ~ 101/02 共計19個月 ]</b>
 專案人數：3 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery、SSL、Facebook Api、7-11物流服務、簡訊服務、聯合信用卡中心、玉山銀行eATM、中國信託信用卡、
@@ -360,8 +360,8 @@ $ret[]= <<< EOF
 EOF;
 
 $list[] = array(
-'name'=>'Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com">http://www.andenhud.com</a>',
-'during'=>'[ 99/8 ~ now 共計18個月 ]',
+'name'=>'Anden Hud(采定) <a target="_blank" href="http://www.andenhud.com.tw">http://www.andenhud.com.tw</a>',
+'during'=>'[ 99/8 ~ 101/02 共計19個月 ]',
 'people'=>'3 (工程師:2)',
 'role'=>'SA / SD / PG',
 'tech'=>'PHP、MySQL、Codeigniter、AJAX、jQuery、SSL、Facebook Api、7-11物流服務、簡訊服務、聯合信用卡中心、玉山銀行eATM、中國信託信用卡、Java、Google分析器、shell script、其他行銷公司的app串接',
@@ -371,7 +371,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：新晨旅行社  <a target="_blank" href="http://yohotour.com.tw">http://yohotour.com.tw</a>  [ 99/11 ~ now 共計15個月 ]</b>
+<b>專案名稱：新晨旅行社  <a target="_blank" href="http://yohotour.com.tw">http://yohotour.com.tw</a>  [ 99/11 ~ 101/02 共計16個月 ]</b>
 專案人數：4 (工程師:2)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
@@ -384,7 +384,7 @@ EOF;
 
 $list[] = array(
 'name'=>'新晨旅行社  <a target="_blank" href="http://yohotour.com.tw">http://yohotour.com.tw</a>',
-'during'=>'[ 99/11 ~ now 共計15個月 ]',
+'during'=>'[ 99/11 ~ 101/02 共計16個月 ]',
 'people'=>'4 (工程師:2)',
 'role'=>'SA / SD / PG',
 'tech'=>'PHP、MySQL、Codeigniter、AJAX、jQuery',
@@ -440,7 +440,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw/">http://ms01.qyoung.com.tw/</a>  [ 100/5 ~ now 共計9個月 ]</b>
+<b>專案名稱：今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw">http://ms01.qyoung.com.tw</a>  [ 100/5 ~ 101/02 共計10個月 ]</b>
 專案人數：3 (工程師:2)
 專案角色：SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix
@@ -452,8 +452,8 @@ $ret[]= <<< EOF
 EOF;
 
 $list[] = array(
-'name'=>'今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw/">http://ms01.qyoung.com.tw/</a>',
-'during'=>'[ 100/5 ~ now 共計9個月 ]',
+'name'=>'今週刊發報系統  <a target="_blank" href="http://ms01.qyoung.com.tw">http://ms01.qyoung.com.tw</a>',
+'during'=>'[ 100/5 ~ 101/02 共計10個月 ]',
 'people'=>'3 (工程師:2)',
 'role'=>'SD / PG',
 'tech'=>'PHP、MySQL、Codeigniter、AJAX、jQuery、Java、SMTP、Postfix',
@@ -463,7 +463,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：味自慢  <a target="_blank" href="http://www.ajijiman.com.tw">http://www.ajijiman.com.tw</a>  [ 100/06 ~ now 共計8個月 ]</b>
+<b>專案名稱：味自慢  <a target="_blank" href="http://www.ajijiman.com.tw">http://www.ajijiman.com.tw</a>  [ 100/06 ~ 101/02 共計9個月 ]</b>
 專案人數：2 (工程師:1)
 專案角色：SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
@@ -476,7 +476,7 @@ EOF;
 
 $list[] = array(
 'name'=>'味自慢  <a target="_blank" href="http://www.ajijiman.com.tw">http://www.ajijiman.com.tw</a>',
-'during'=>'[ 100/06 ~ now 共計8個月 ]',
+'during'=>'[ 100/06 ~ 101/02 共計9個月 ]',
 'people'=>'2 (工程師:1)',
 'role'=>'SD / PG',
 'tech'=>'PHP、MySQL、Codeigniter、AJAX、jQuery',
@@ -486,7 +486,7 @@ $list[] = array(
 );
 
 $ret[]= <<< EOF
-<b>專案名稱：Stayreal  <a target="_blank" href="http://demo.istayreal.com/">展示網站</a>  [ 100/05 ~ now 共計9個月 ]</b>
+<b>專案名稱：Stayreal  <a target="_blank" href="http://tw.istayreal.com">http://tw.istayreal.com</a>  [ 100/05 ~ 101/02 共計10個月 ]</b>
 專案人數：2 (工程師:1)
 專案角色：SA / SD / PG
 使用技術：PHP、MySQL、Codeigniter、AJAX、jQuery
@@ -498,8 +498,8 @@ $ret[]= <<< EOF
 EOF;
 
 $list[] = array(
-'name'=>'Stayreal  <a target="_blank" href="http://test.stayreal.qyoung.com.tw/">測試網站</a>',
-'during'=>'[ 100/05 ~ now 共計9個月 ]',
+'name'=>'Stayreal  <a target="_blank" href="http://tw.istayreal.com">http://tw.istayreal.com</a>',
+'during'=>'[ 100/05 ~ 101/02 共計10個月 ]',
 'people'=>'2 (工程師:1)',
 'role'=>'SA / SD / PG',
 'tech'=>'PHP、MySQL、Codeigniter、AJAX、jQuery',
